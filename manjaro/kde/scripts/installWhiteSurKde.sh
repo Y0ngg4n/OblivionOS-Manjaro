@@ -12,7 +12,7 @@ LOOKFEEL_DIR="${INSTALL_DIR}/usr/share/plasma/look-and-feel"
 KVANTUM_DIR="${INSTALL_DIR}/usr/share/Kvantum"
 WALLPAPER_DIR="${INSTALL_DIR}/usr/share/wallpapers"
 
-SRC_DIR=$(cd $(dirname $0) && pwd)
+SRC_DIR="WhiteSur-kde"
 
 THEME_NAME=WhiteSur
 LATTE_DIR="$HOME/.config/latte"
