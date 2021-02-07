@@ -290,3 +290,7 @@ manjaro-hotfixes
 ## Flatpak support
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde
+
+# Custom Packages
+kvantum-qt5
+git
