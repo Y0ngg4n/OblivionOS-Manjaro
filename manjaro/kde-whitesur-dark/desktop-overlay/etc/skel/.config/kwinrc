@@ -29,8 +29,16 @@ magiclampEnabled=true
 wobblywindowsEnabled=true
 
 [TabBox]
+DesktopLayout=org.kde.breeze.desktop
+DesktopListLayout=org.kde.breeze.desktop
 LayoutName=big_icons
 TouchBorderActivate=9
 
 [Windows]
 Placement=Centered
+
+[org.kde.kdecoration2]
+ButtonsOnLeft=XIA
+ButtonsOnRight=
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__WhiteSur-dark
