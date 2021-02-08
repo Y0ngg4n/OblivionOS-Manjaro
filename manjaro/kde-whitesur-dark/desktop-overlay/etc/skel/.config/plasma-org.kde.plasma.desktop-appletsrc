@@ -31,8 +31,9 @@ ToolBoxButtonY=983
 positions=1,9,desktop:/manjaro-documentation.desktop,0,1,desktop:/calamares.desktop,0,0
 sortMode=-1
 
-[Containments][18][Wallpaper][org.kde.image][General]
-Image=file:///home/vince/Pictures/WhiteSur.png
+[Containments][17][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/WhiteSur/contents/screenshot.png
+SlidePaths=/home/yonggan/.local/share/wallpapers,/usr/share/wallpapers
 
 [ScreenMapping]
 itemsOnDisabledScreens=
