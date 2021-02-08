@@ -7,8 +7,9 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][17]
-activityId=4eb3c0b1-ff9e-400b-9767-0bfa8bf1de45
+[Containments][18]
+ItemGeometriesHorizontal=
+activityId=c7672111-15d1-48ef-9ee2-1418a5fe621f
 formfactor=0
 immutability=1
 lastScreen=0
@@ -16,11 +17,22 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][17][Configuration]
-PreloadWeight=34
+[Containments][18][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
-[Containments][17][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Breath2/contents/images/1920x1080.png
+[Containments][18][Configuration]
+PreloadWeight=0
+
+[Containments][18][General]
+ToolBoxButtonState=bottom
+ToolBoxButtonX=739
+ToolBoxButtonY=983
+positions=1,9,desktop:/manjaro-documentation.desktop,0,1,desktop:/calamares.desktop,0,0
+sortMode=-1
+
+[Containments][18][Wallpaper][org.kde.image][General]
+Image=file:///home/vince/Pictures/WhiteSur.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=
