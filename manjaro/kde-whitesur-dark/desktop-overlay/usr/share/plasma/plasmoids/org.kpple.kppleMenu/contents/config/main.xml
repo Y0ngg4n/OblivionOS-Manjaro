@@ -16,7 +16,7 @@
       <default>systemsettings5</default>
     </entry>
     <entry name="appStoreSettings" type="String">
-      <default>plasma-discover</default>
+      <default>pamac-manager</default>
     </entry>
     <entry name="forceQuitSettings" type="String">
       <default>xkill</default>

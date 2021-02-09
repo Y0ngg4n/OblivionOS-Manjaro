@@ -7,13 +7,8 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][17][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/WhiteSur/contents/screenshot.png
-SlidePaths=/home/yonggan/.local/share/wallpapers,/usr/share/wallpapers
-
-[Containments][19]
-ItemGeometriesHorizontal=
-activityId=90b9bef8-e21b-46e9-a11e-afc360849583
+[Containments][17]
+activityId=a19845d6-efd6-4cc8-85aa-a3e7d0c349ac
 formfactor=0
 immutability=1
 lastScreen=0
@@ -21,23 +16,14 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][19][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+[Containments][17][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=216
+ToolBoxButtonY=23
 
-[Containments][19][Configuration]
-PreloadWeight=0
-
-[Containments][19][General]
-ToolBoxButtonState=bottom
-ToolBoxButtonX=432
-ToolBoxButtonY=669
-positions=1,9,desktop:/manjaro-documentation.desktop,0,1,desktop:/calamares.desktop,0,0
-sortMode=-1
-
-[Containments][19][Wallpaper][org.kde.image][General]
-Image=file:///home/vince/Pictures/WhiteSur.png
+[Containments][17][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/WhiteSur/contents/images/2560x1440.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/manjaro-documentation.desktop,0,desktop:/calamares.desktop,0
+screenMapping=desktop:/calamares.desktop,0,desktop:/manjaro-documentation.desktop,0
