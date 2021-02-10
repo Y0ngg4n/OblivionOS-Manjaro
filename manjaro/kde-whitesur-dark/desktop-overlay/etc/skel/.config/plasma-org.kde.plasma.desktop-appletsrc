@@ -4,11 +4,11 @@ RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
 [ActionPlugins][1]
-MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][17]
-activityId=a19845d6-efd6-4cc8-85aa-a3e7d0c349ac
+[Containments][1]
+ItemGeometriesHorizontal=
+activityId=23dcaa21-2b74-4bcd-ba37-1b2ecaec7179
 formfactor=0
 immutability=1
 lastScreen=0
@@ -16,14 +16,23 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][17][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=216
-ToolBoxButtonY=23
+[Containments][1][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
-[Containments][17][Wallpaper][org.kde.image][General]
+[Containments][1][Configuration]
+PreloadWeight=0
+
+[Containments][1][General]
+ToolBoxButtonState=bottom
+ToolBoxButtonX=739
+ToolBoxButtonY=983
+positions=1,9,desktop:/manjaro-documentation.desktop,0,1,desktop:/calamares.desktop,0,0
+sortMode=-1
+
+[Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/WhiteSur/contents/images/2560x1440.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/calamares.desktop,0,desktop:/manjaro-documentation.desktop,0
+screenMapping=desktop:/manjaro-documentation.desktop,0,desktop:/calamares.desktop,0
