@@ -8,7 +8,7 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
 ItemGeometriesHorizontal=
-activityId=23dcaa21-2b74-4bcd-ba37-1b2ecaec7179
+activityId=037571b2-855b-4f05-bc30-e7201d78224a
 formfactor=0
 immutability=1
 lastScreen=0
@@ -27,7 +27,7 @@ PreloadWeight=0
 ToolBoxButtonState=bottom
 ToolBoxButtonX=739
 ToolBoxButtonY=983
-positions=1,9,desktop:/manjaro-documentation.desktop,0,1,desktop:/calamares.desktop,0,0
+positions=1,12,desktop:/manjaro-documentation.desktop,0,1,desktop:/calamares.desktop,0,0
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]

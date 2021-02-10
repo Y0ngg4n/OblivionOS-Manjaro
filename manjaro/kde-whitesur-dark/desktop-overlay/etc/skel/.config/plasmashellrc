@@ -1,17 +1,6 @@
 [PlasmaTransientsConfig]
 PreloadWeight=0
 
-[PlasmaViews][Panel 2][Defaults]
-maxLength=1920
-minLength=1920
-offset=0
-thickness=32
-
-[PlasmaViews][Panel 2][Horizontal1024]
-alignment=1
-panelVisibility=0
-thickness=32
-
 [ScreenConnectors]
 0=Virtual-1
 

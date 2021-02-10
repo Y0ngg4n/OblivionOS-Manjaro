@@ -3,7 +3,7 @@ name: default
 
 steps:
   - name: buildiso
-    image: yonggan/manjaro-buildiso
+    image: registry.gitlab.com/acrom18/manjaro-buildiso
     commands:
       - mkdir -p ~/manjaro-tools
       - echo "run_dir=/drone/src" > ~/manjaro-tools/iso-profiles.conf
