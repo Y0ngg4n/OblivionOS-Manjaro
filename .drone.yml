@@ -7,5 +7,7 @@ steps:
     commands:
       - mkdir -p ~/manjaro-tools
       - echo "run_dir=/drone/src" > ~/manjaro-tools/iso-profiles.conf
+      - rm -rf /etc/manjaro-tools/iso.list.d/*
+      - echo "run_dir=/drone/src" > /etc/manjaro-tools/iso.list.d/custom.list
       - buildiso -p kde-whitesur-dark -v
     
