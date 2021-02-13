@@ -6,9 +6,9 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
+[Containments][2]
 ItemGeometriesHorizontal=
-activityId=037571b2-855b-4f05-bc30-e7201d78224a
+activityId=2fbc0491-b033-49fd-bdb0-01f75d0b9910
 formfactor=0
 immutability=1
 lastScreen=0
@@ -16,23 +16,23 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][1][ConfigDialog]
+[Containments][2][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][1][Configuration]
+[Containments][2][Configuration]
 PreloadWeight=0
 
-[Containments][1][General]
+[Containments][2][General]
 ToolBoxButtonState=bottom
 ToolBoxButtonX=739
-ToolBoxButtonY=983
-positions=1,12,desktop:/manjaro-documentation.desktop,0,1,desktop:/calamares.desktop,0,0
+ToolBoxButtonY=669
+positions=1,12,desktop:/calamares.desktop,0,0,desktop:/manjaro-documentation.desktop,0,1
 sortMode=-1
 
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/WhiteSur/contents/images/2560x1440.png
+[Containments][2][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/WhiteSur/contents/images/3840x2160.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/manjaro-documentation.desktop,0,desktop:/calamares.desktop,0
+screenMapping=desktop:/calamares.desktop,0,desktop:/manjaro-documentation.desktop,0

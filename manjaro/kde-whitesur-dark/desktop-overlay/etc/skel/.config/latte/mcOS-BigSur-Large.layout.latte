@@ -52,11 +52,11 @@ isPreferredForDroppedLaunchers=false
 launchers59=applications:org.kde.dolphin.desktop,applications:org.manjaro.pamac.manager.desktop,applications:firefox.desktop,applications:org.kde.kate.desktop,applications:org.kde.okular.desktop,applications:org.kde.gwenview.desktop,applications:org.kde.spectacle.desktop,applications:org.kde.ksysguard.desktop,applications:org.kde.konsole.desktop,applications:systemsettings.desktop
 manualScrollTasksType=Disabled
 
-[Containments][1][Applets][73]
+[Containments][1][Applets][81]
 immutability=1
-plugin=org.kde.plasma.simplemenu
+plugin=launchpadPlasma
 
-[Containments][1][Applets][73][Configuration][General]
+[Containments][1][Applets][81][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][1][ConfigDialog]
@@ -69,7 +69,7 @@ PreloadWeight=0
 [Containments][1][General]
 advanced=false
 alignmentUpgraded=true
-appletOrder=73;67
+appletOrder=81;67
 iconSize=55
 inConfigureAppletsMode=true
 panelShadows=false
@@ -392,14 +392,14 @@ DialogWidth=720
 
 [Containments][7][Applets][10][Configuration][General]
 containmentType=Latte
-lengthPixels=20
+lengthPixels=15
 
 [Containments][7][Applets][11]
 immutability=1
 plugin=org.kpple.kppleMenu
 
 [Containments][7][Applets][11][Configuration]
-PreloadWeight=3
+PreloadWeight=0
 
 [Containments][7][Applets][11][Configuration][ConfigDialog]
 DialogHeight=540
@@ -418,7 +418,7 @@ DialogWidth=720
 
 [Containments][7][Applets][12][Configuration][General]
 containmentType=Latte
-lengthPixels=20
+lengthPixels=15
 
 [Containments][7][Applets][13]
 immutability=1
@@ -433,7 +433,7 @@ DialogWidth=720
 
 [Containments][7][Applets][13][Configuration][General]
 containmentType=Latte
-lengthPixels=20
+lengthPixels=15
 
 [Containments][7][Applets][14]
 immutability=1
@@ -448,7 +448,7 @@ DialogWidth=720
 
 [Containments][7][Applets][14][Configuration][General]
 containmentType=Latte
-lengthPixels=20
+lengthPixels=15
 
 [Containments][7][Applets][15]
 immutability=1
@@ -463,7 +463,7 @@ DialogWidth=720
 
 [Containments][7][Applets][15][Configuration][General]
 containmentType=Latte
-lengthPixels=20
+lengthPixels=15
 
 [Containments][7][Applets][16]
 immutability=1
@@ -478,7 +478,7 @@ DialogWidth=720
 
 [Containments][7][Applets][16][Configuration][General]
 containmentType=Latte
-lengthPixels=20
+lengthPixels=15
 
 [Containments][7][Applets][17]
 immutability=1
@@ -493,7 +493,7 @@ DialogWidth=720
 
 [Containments][7][Applets][17][Configuration][General]
 containmentType=Latte
-lengthPixels=20
+lengthPixels=15
 
 [Containments][7][Applets][18]
 immutability=1
@@ -508,14 +508,14 @@ DialogWidth=720
 
 [Containments][7][Applets][18][Configuration][General]
 containmentType=Latte
-lengthPixels=20
+lengthPixels=15
 
 [Containments][7][Applets][19]
 immutability=1
 plugin=org.kde.plasma.betterinlineclock
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=1
+PreloadWeight=0
 
 [Containments][7][Applets][19][Configuration][Appearance]
 customSpacing=1.7647058823529413
@@ -579,7 +579,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][7][Applets][25][Configuration]
-PreloadWeight=16
+PreloadWeight=5
 SystrayContainmentId=26
 
 [Containments][7][Applets][39]
@@ -590,25 +590,21 @@ plugin=org.communia.apptitle
 PreloadWeight=0
 
 [Containments][7][Applets][39][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=711
+DialogWidth=1366
 
 [Containments][7][Applets][39][Configuration][General]
 bold=true
-noWindowText=Finder        File        Edit        View        Go        Window        Help
+noWindowText=
 noWindowType=text
 textType=1
-
-[Containments][7][Applets][40]
-immutability=1
-plugin=org.kde.plasma.appmenu
-
-[Containments][7][Applets][40][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][68]
 immutability=1
 plugin=org.kde.plasma.systemloadviewer
+
+[Containments][7][Applets][68][Configuration]
+PreloadWeight=34
 
 [Containments][7][Applets][68][Configuration][ConfigDialog]
 DialogHeight=540
@@ -617,9 +613,60 @@ DialogWidth=720
 [Containments][7][Applets][68][Configuration][General]
 monitorType=Circular
 
-[Containments][7][Applets][70]
+[Containments][7][Applets][74]
 immutability=1
-plugin=org.kde.plasma.quicklaunch
+plugin=org.kde.plasma.mediacontroller_plus
+
+[Containments][7][Applets][74][Configuration]
+PreloadWeight=87
+
+[Containments][7][Applets][74][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][7][Applets][75]
+immutability=1
+plugin=org.kde.milou
+
+[Containments][7][Applets][75][Configuration]
+PreloadWeight=100
+
+[Containments][7][Applets][75][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][7][Applets][75][Shortcuts]
+global=Meta
+
+[Containments][7][Applets][77]
+immutability=1
+plugin=org.kde.plasma.inlineBattery
+
+[Containments][7][Applets][77][Configuration]
+PreloadWeight=42
+
+[Containments][7][Applets][77][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][7][Applets][78]
+immutability=1
+plugin=org.kde.latte.spacer
+
+[Containments][7][Applets][78][Configuration]
+PreloadWeight=42
+
+[Containments][7][Applets][78][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][7][Applets][78][Configuration][General]
+containmentType=Latte
+lengthPixels=15
+
+[Containments][7][Applets][79]
+immutability=1
+plugin=org.kde.plasma.appmenu
 
 [Containments][7][Applets][9]
 immutability=1
@@ -634,7 +681,7 @@ DialogWidth=720
 
 [Containments][7][Applets][9][Configuration][General]
 containmentType=Latte
-lengthPixels=20
+lengthPixels=15
 
 [Containments][7][ConfigDialog]
 DialogHeight=597
@@ -646,7 +693,7 @@ PreloadWeight=0
 [Containments][7][General]
 alignment=10
 alignmentUpgraded=true
-appletOrder=18;11;39;40;10;25;12;24;13;22;14;68;15;70;16;20;17;19;9
+appletOrder=18;11;39;79;10;74;12;75;24;13;22;78;68;14;77;15;25;16;20;17;19;9
 autoSizeEnabled=false
 configurationSticker=true
 dragActiveWindowEnabled=true
@@ -658,8 +705,8 @@ panelTransparency=30
 shadowOpacity=20
 shadowSize=40
 shadowsUpgraded=true
-splitterPosition=4
-splitterPosition2=5
+splitterPosition=7
+splitterPosition2=9
 tasksUpgraded=true
 themeColors=SmartThemeColors
 thickMargin=15
@@ -682,10 +729,8 @@ customBackground=
 customTextColor=
 disableBordersForMaximizedWindows=false
 icon=
-lastUsedActivity=23dcaa21-2b74-4bcd-ba37-1b2ecaec7179
+lastUsedActivity=20a56300-0790-4972-837b-a2983a2bf589
 launchers=
 preferredForShortcutsTouched=true
 showInMenu=true
 version=2
- 
-

@@ -21,3 +21,7 @@ rm -rf $INSTALL_DIR/mediacontroller
 git clone https://github.com/kppleos/org.kpple.kppleMenu.git $INSTALL_DIR/kpple
 mv $INSTALL_DIR/kpple/package $INSTALL_DIR/org.kpple.kppleMenu
 rm -rf $INSTALL_DIR/kpple
+
+git clone https://github.com/KDE/plasma-desktop.git $INSTALL_DIR/plasma-desktop
+mv $INSTALL_DIR/plasma-desktop/applets/kicker/package $INSTALL_DIR/launchpadPlasma
+rm -rf $INSTALL_DIR/plasma-desktop
