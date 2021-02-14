@@ -1,9 +1,7 @@
 # OblivionOS | Manjaro Version
-This is a Manjaro Spinnoff with minimum changes to achieve a Mac Desktop like Look.
-It uses KDE and the WhiteSur Themes available on the KDE Store and Latte Dock.
 
-!!! Be aware this is highly Alpha !!!
-I created this Distro for my own because i sucked to always customize my KDE Desktop
+Repo Switched over to Gitlab:
+https://gitlab.com/yonggan/OblivionOS-Manjaro
 
 ## Downloads
 You can find the Downloads of the current Build here:
