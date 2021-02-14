@@ -26,7 +26,7 @@ immutability=1
 plugin=launchpadPlasma
 
 [Containments][1][Applets][4][Configuration]
-PreloadWeight=52
+PreloadWeight=28
 
 [Containments][1][Applets][4][Configuration][ConfigDialog]
 DialogHeight=540
@@ -52,13 +52,6 @@ isPreferredForDroppedLaunchers=false
 launchers59=applications:org.kde.dolphin.desktop,applications:org.manjaro.pamac.manager.desktop,applications:firefox.desktop,applications:org.kde.kate.desktop,applications:org.kde.okular.desktop,applications:org.kde.gwenview.desktop,applications:org.kde.spectacle.desktop,applications:org.kde.ksysguard.desktop,applications:org.kde.konsole.desktop,applications:systemsettings.desktop
 manualScrollTasksType=Disabled
 
-[Containments][1][Applets][81]
-immutability=1
-plugin=launchpadPlasma
-
-[Containments][1][Applets][81][Configuration][General]
-favoritesPortedToKAstats=true
-
 [Containments][1][ConfigDialog]
 DialogHeight=597
 DialogWidth=539
@@ -69,7 +62,7 @@ PreloadWeight=0
 [Containments][1][General]
 advanced=false
 alignmentUpgraded=true
-appletOrder=81;67
+appletOrder=4;67
 iconSize=55
 inConfigureAppletsMode=true
 panelShadows=false
@@ -191,6 +184,13 @@ plugin=touchpad
 
 [Containments][26][Applets][42][Configuration]
 PreloadWeight=0
+
+[Containments][26][Applets][82]
+immutability=1
+plugin=org.kde.plasma.mediacontroller_plus
+
+[Containments][26][Applets][82][Configuration]
+PreloadWeight=26
 
 [Containments][26][ConfigDialog]
 DialogHeight=540
@@ -405,21 +405,6 @@ PreloadWeight=0
 DialogHeight=540
 DialogWidth=720
 
-[Containments][7][Applets][12]
-immutability=1
-plugin=org.kde.latte.spacer
-
-[Containments][7][Applets][12][Configuration]
-PreloadWeight=0
-
-[Containments][7][Applets][12][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][7][Applets][12][Configuration][General]
-containmentType=Latte
-lengthPixels=15
-
 [Containments][7][Applets][13]
 immutability=1
 plugin=org.kde.latte.spacer
@@ -579,7 +564,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][7][Applets][25][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 SystrayContainmentId=26
 
 [Containments][7][Applets][39]
@@ -604,7 +589,7 @@ immutability=1
 plugin=org.kde.plasma.systemloadviewer
 
 [Containments][7][Applets][68][Configuration]
-PreloadWeight=34
+PreloadWeight=10
 
 [Containments][7][Applets][68][Configuration][ConfigDialog]
 DialogHeight=540
@@ -618,7 +603,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller_plus
 
 [Containments][7][Applets][74][Configuration]
-PreloadWeight=87
+PreloadWeight=76
 
 [Containments][7][Applets][74][Configuration][ConfigDialog]
 DialogHeight=540
@@ -629,21 +614,21 @@ immutability=1
 plugin=org.kde.milou
 
 [Containments][7][Applets][75][Configuration]
-PreloadWeight=100
+PreloadWeight=76
 
 [Containments][7][Applets][75][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][7][Applets][75][Shortcuts]
-global=Meta
+global=
 
 [Containments][7][Applets][77]
 immutability=1
 plugin=org.kde.plasma.inlineBattery
 
 [Containments][7][Applets][77][Configuration]
-PreloadWeight=42
+PreloadWeight=18
 
 [Containments][7][Applets][77][Configuration][ConfigDialog]
 DialogHeight=540
@@ -654,7 +639,7 @@ immutability=1
 plugin=org.kde.latte.spacer
 
 [Containments][7][Applets][78][Configuration]
-PreloadWeight=42
+PreloadWeight=18
 
 [Containments][7][Applets][78][Configuration][ConfigDialog]
 DialogHeight=540
@@ -667,6 +652,31 @@ lengthPixels=15
 [Containments][7][Applets][79]
 immutability=1
 plugin=org.kde.plasma.appmenu
+
+[Containments][7][Applets][79][Configuration]
+PreloadWeight=26
+
+[Containments][7][Applets][83]
+immutability=1
+plugin=org.kde.latte.separator
+
+[Containments][7][Applets][83][Configuration]
+PreloadWeight=26
+
+[Containments][7][Applets][84]
+immutability=1
+plugin=org.kde.latte.spacer
+
+[Containments][7][Applets][84][Configuration]
+PreloadWeight=26
+
+[Containments][7][Applets][84][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][7][Applets][84][Configuration][General]
+containmentType=Latte
+lengthPixels=15
 
 [Containments][7][Applets][9]
 immutability=1
@@ -693,7 +703,7 @@ PreloadWeight=0
 [Containments][7][General]
 alignment=10
 alignmentUpgraded=true
-appletOrder=18;11;39;79;10;74;12;75;24;13;22;78;68;14;77;15;25;16;20;17;19;9
+appletOrder=18;11;39;79;83;84;74;10;75;24;13;22;78;68;14;77;15;25;16;20;17;19;9
 autoSizeEnabled=false
 configurationSticker=true
 dragActiveWindowEnabled=true
@@ -705,8 +715,8 @@ panelTransparency=30
 shadowOpacity=20
 shadowSize=40
 shadowsUpgraded=true
-splitterPosition=7
-splitterPosition2=9
+splitterPosition=8
+splitterPosition2=10
 tasksUpgraded=true
 themeColors=SmartThemeColors
 thickMargin=15
@@ -729,7 +739,7 @@ customBackground=
 customTextColor=
 disableBordersForMaximizedWindows=false
 icon=
-lastUsedActivity=20a56300-0790-4972-837b-a2983a2bf589
+lastUsedActivity=c284cb3d-8856-4d32-9b94-4321d1d51009
 launchers=
 preferredForShortcutsTouched=true
 showInMenu=true

@@ -14,3 +14,10 @@ cp Splash.svg $LOOKFEEL_DIR/com.github.vinceliuice.WhiteSur-dark/contents/splash
 cp Logo.svg $INSTALL_DIR/usr/share/icons/oblivion/Logo.svg
 cp Hole.svg $INSTALL_DIR/usr/share/icons/oblivion/Hole.svg
 cp Hole20.svg $INSTALL_DIR/usr/share/icons/oblivion/Hole20.svg
+
+
+cp Hole20.svg $INSTALL_DIR/usr/share/icons/WhiteSur/apps/scalable/oblivion-hole20.svg
+cp Hole.svg $INSTALL_DIR/usr/share/icons/WhiteSur/apps/scalable/oblivion-hole.svg
+
+cp Hole20.svg $INSTALL_DIR/usr/share/icons/WhiteSur-dark/apps/scalable/oblivion-hole20.svg
+cp Hole.svg $INSTALL_DIR/usr/share/icons/WhiteSur-dark/apps/scalable/oblivion-hole.svg

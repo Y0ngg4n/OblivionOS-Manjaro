@@ -84,7 +84,7 @@ Comment[zh_CN]=Kpple菜单是一个下拉菜单，通常可在菜单栏的左侧
 Comment[zh_TW]=Kpple菜單是一個下拉菜單，通常可在菜單欄的左側找到。
 
 Type=Service
-Icon=Hole20
+Icon=oblivion-hole20
 X-KDE-ServiceTypes=Plasma/Applet
 
 X-Plasma-API=declarativeappletscript
