@@ -1,6 +1,8 @@
 # OblivionOS | Manjaro Version
 
-Repo Switched over to Gitlab:
+Repo Switched over to own Gitea:
+https://git.oblivioncoding.pro/Yonggan/OblivionOS-Manjaro.git
+Mirror (maybe outdated):
 https://gitlab.com/yonggan/OblivionOS-Manjaro
 
 ## Downloads
